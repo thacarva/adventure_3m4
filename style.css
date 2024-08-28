@@ -3,4 +3,26 @@ body{
     color:black;
     font-family: fantasy;
     display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
 }
+    button{
+    background: rgb(40, 145, 96);  
+    color:beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    }
+    .passo{
+        display: none ;
+    }
+    .passo.ativo{
+        display: block;
+    }
+    main{
+        text-align: center;
+        max-width: 90%;
+    }
+    img{
+        max-width: 90%; 
+    }
